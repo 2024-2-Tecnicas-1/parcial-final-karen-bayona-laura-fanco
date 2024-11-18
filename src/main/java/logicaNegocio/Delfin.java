@@ -5,8 +5,8 @@ private String TipoHabitat ;
 private String emitirSonido;
 private String obtenerDieta;
 
-    public Delfin(String TipoHabitat, String emitirSonido, String obtenerDieta) {
-        this.TipoHabitat = TipoHabitat;
+    public Delfin(TipoHabitat Acuatico, String emitirSonido, String obtenerDieta) {
+        //this.TipoHabitat = TipoHabitat;
         this.emitirSonido = emitirSonido;
         this.obtenerDieta = obtenerDieta;
     }
@@ -35,6 +35,7 @@ private String obtenerDieta;
         this.obtenerDieta = obtenerDieta;
     }
     
+@Override
     public String emitirSonido(){
         this.emitirSonido = "Chirrido";
         return this.emitirSonido;

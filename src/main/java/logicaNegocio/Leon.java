@@ -8,10 +8,10 @@ public class Leon extends Animal {
     private String TipoHabitat;
 
     //Constructor
-    public Leon(String emitirSonido, String obtenerDieta, String TipoHabitat) {
+    public Leon(String emitirSonido, String obtenerDieta, TipoHabitat Terrestre) {
         this.emitirSonido = emitirSonido;
         this.obtenerDieta = obtenerDieta;
-        this.TipoHabitat = TipoHabitat;
+        //this.TipoHabitat = TipoHabitat;
     }
 
     public String getEmitirSonido() {
@@ -39,11 +39,13 @@ public class Leon extends Animal {
     }
 
     //Metodos
+    @Override
     public String emitirSonido() {
         this.emitirSonido = "Rugido";
         return this.emitirSonido;
     }
 
+    @Override
     public String obtenerDieta() {
         this.obtenerDieta = "Carnivoro";
         return this.obtenerDieta;

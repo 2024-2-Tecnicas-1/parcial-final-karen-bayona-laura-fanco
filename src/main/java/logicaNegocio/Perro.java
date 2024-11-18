@@ -7,10 +7,10 @@ public class Perro extends Animal {
     private String obtenerDieta;
     private String TipoHabitat;
     
-    public Perro(String emitirSonido, String obtenerDieta, String TipoHabitat) {
+    public Perro(String emitirSonido, String obtenerDieta, TipoHabitat Terrestre) {
         this.emitirSonido = emitirSonido;
         this.obtenerDieta = obtenerDieta;
-        this.TipoHabitat = TipoHabitat;
+        //this.TipoHabitat = TipoHabitat;
     }
 
     public String getEmitirSonido() {
