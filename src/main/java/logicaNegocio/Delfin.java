@@ -43,13 +43,6 @@ private String obtenerDieta;
         this.obtenerDieta = "Pescado";
         return this.obtenerDieta;
     }
-     public String TipoHabitat(){
-        this.TipoHabitat = "ACUATICO";
-        return this.TipoHabitat;
-    
-    
-    
    
-}
 }
      
