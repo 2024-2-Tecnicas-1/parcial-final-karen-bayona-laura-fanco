@@ -37,11 +37,13 @@ public class Perro extends Animal {
         this.TipoHabitat = TipoHabitat;
     }
     
+    @Override
        public String emitirSonido() {
         this.emitirSonido = "Ladrido";
         return this.emitirSonido;
     }
 
+    @Override
     public String obtenerDieta() {
         this.obtenerDieta = "Omnivoro";
         return this.obtenerDieta;
