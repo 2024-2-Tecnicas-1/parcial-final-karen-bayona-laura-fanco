@@ -1,5 +1,5 @@
 package logicaNegocio;
 
-public class Perro {
+public class Perro ez{
     // TODO: Aquí va tu código
 }
