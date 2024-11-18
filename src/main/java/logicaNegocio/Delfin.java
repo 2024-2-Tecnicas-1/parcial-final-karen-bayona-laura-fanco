@@ -34,7 +34,20 @@ private String obtenerDieta;
     public void setObtenerDieta(String obtenerDieta) {
         this.obtenerDieta = obtenerDieta;
     }
- 
- } 
+    
+    public String emitirSonido(){
+        this.emitirSonido = "Chirrido";
+        return this.emitirSonido;
+    }
+     public String obtenerDieta(){
+        this.obtenerDieta = "Pescado";
+        return this.obtenerDieta;
+    }
+     public String TipoHabitat(){
+        this.TipoHabitat = "ACUATICO";
+        return this.TipoHabitat;
+    
+    
+    
+    
 }
-
