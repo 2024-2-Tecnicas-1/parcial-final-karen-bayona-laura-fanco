@@ -49,8 +49,4 @@ public class Leon extends Animal {
         return this.obtenerDieta;
     }
 
-    public String TipoHabitat() {
-        this.TipoHabitat = "Terrestre";
-        return this.TipoHabitat;
-    }
 }
